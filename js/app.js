@@ -131,7 +131,7 @@ var calculadora = {
    			case '.':
    				if (puntoAgregado) {
    					break
-   				} else if (resultado.textContent == '0') {
+   				} else if (resultado.textContent == '') {
    					resultado.textContent = resultado.textContent + "0.";
    					puntoAgregado = true;
    					break;
